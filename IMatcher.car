@@ -1,0 +1,32 @@
+
+module
+{
+    interface Elastos.Core.IStringBuffer;
+    interface Elastos.Core.ICharSequence;
+
+    interface Elastos.Utility.Regex.IPattern;
+    interface Elastos.Utility.Regex.IMatchResult;
+
+    namespace Elastos {
+    namespace Utility {
+    namespace Regex {
+
+    /**
+     * The result of applying a {Pattern} to a given input. See Pattern for
+     */
+
+    /**
+     * @Involve
+     * interface IMatchResult;
+     */
+    interface IMatcher {
+         
+    }
+
+    interface IMatcherHelper {
+    }
+
+    } // namespace Regex
+    } // namespace Utility
+    } // namespace Elastos
+}
